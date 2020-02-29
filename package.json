@@ -6,7 +6,7 @@
     "author": "Mariana Yui <HealMSlin@gmail.com>",
     "license": "MIT",
     "scripts": {
-        "jest": "jest --coverage"
+        "jest": "jest"
     },
     "dependencies": {
         "@babel/core": "^7.8.6",
