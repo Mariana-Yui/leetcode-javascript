@@ -35,4 +35,6 @@ const bar = deepCopy(foo)
 bar.b.c = 5
 bar.g.push(6)
 console.log(JSON.stringify(bar))
+// {"a":1,"b":{"c":5,"d":{"e":3}},"f":null,"g":[1,2,3,4,5,6],"i":{}}
 console.log(JSON.stringify(foo))
+// {"a":1,"b":{"c":2,"d":{"e":3}},"f":null,"g":[1,2,3,4,5],"i":{}}
